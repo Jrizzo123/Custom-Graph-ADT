@@ -2,8 +2,6 @@
 
 int main() {
 
-
-
 	srand(time(NULL));
 
 	int ids1[TESTDATA1] = { 60, 20, 10, 70, 30, 40, 50, 100, 90, 80 };
@@ -69,7 +67,7 @@ int main() {
 		}
 	}
 
-	if (!addedVertices.empty()) { //erasing placeholder element
+	if (!addedVertices.empty()) {
 		addedVertices.erase(addedVertices.begin());
 	}
 
